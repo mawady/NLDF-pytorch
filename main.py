@@ -38,7 +38,7 @@ if __name__ == '__main__':
     vgg_path = './weights/vgg16_feat.pth'
 
     # # -----ECSSD dataset-----
-    train_path = os.path.join(data_root, 'ECSSD/images')
+    image_path = os.path.join(data_root, 'ECSSD/images')
     label_path = os.path.join(data_root, 'ECSSD/ground_truth_mask')
     val_path = os.path.join(data_root, 'ECSSD/val_images')
     val_label = os.path.join(data_root, 'ECSSD/val_ground_truth_mask')
