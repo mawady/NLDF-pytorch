@@ -46,8 +46,8 @@ if __name__ == '__main__':
     # test_label = os.path.join(data_root, 'ECSSD/test_ground_truth_mask')
     image_path = "/content/NLDF-pytorch/data/images"
     label_path = "/content/NLDF-pytorch/data/ground_truth_mask"
-    val_path = "/content/NLDF-pytorch/data/images"
-    val_label = "/content/NLDF-pytorch/data/ground_truth_mask"
+    val_path = None
+    val_label = None
     test_path = "/content/NLDF-pytorch/data/images"
     test_label = "/content/NLDF-pytorch/data/ground_truth_mask"
     train_file = None
