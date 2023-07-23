@@ -38,12 +38,21 @@ if __name__ == '__main__':
     vgg_path = './weights/vgg16_feat.pth'
 
     # # -----ECSSD dataset-----
-    image_path = os.path.join(data_root, 'ECSSD/images')
-    label_path = os.path.join(data_root, 'ECSSD/ground_truth_mask')
-    val_path = os.path.join(data_root, 'ECSSD/val_images')
-    val_label = os.path.join(data_root, 'ECSSD/val_ground_truth_mask')
-    test_path = os.path.join(data_root, 'ECSSD/test_images')
-    test_label = os.path.join(data_root, 'ECSSD/test_ground_truth_mask')
+    # image_path = os.path.join(data_root, 'ECSSD/images')
+    # label_path = os.path.join(data_root, 'ECSSD/ground_truth_mask')
+    # val_path = os.path.join(data_root, 'ECSSD/val_images')
+    # val_label = os.path.join(data_root, 'ECSSD/val_ground_truth_mask')
+    # test_path = os.path.join(data_root, 'ECSSD/test_images')
+    # test_label = os.path.join(data_root, 'ECSSD/test_ground_truth_mask')
+    image_path = "/content/NLDF-pytorch/data/images"
+    label_path = "/content/NLDF-pytorch/data/ground_truth_mask"
+    val_path = "/content/NLDF-pytorch/data/images"
+    val_label = "/content/NLDF-pytorch/data/ground_truth_mask"
+    test_path = "/content/NLDF-pytorch/data/images"
+    test_label = "/content/NLDF-pytorch/data/ground_truth_mask"
+    train_file = None
+    valid_file = None
+    test_file = None
 
     # # -----MSRA-B dataset-----
     # image_path = os.path.join(data_root, 'MSRA-B/image')
