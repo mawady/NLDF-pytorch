@@ -22,6 +22,7 @@ def demo(model_path, img_path, cuda):
     prob = (prob.cpu().data[0][0].numpy() * 255).astype(np.uint8)
     p_img = Image.fromarray(prob, mode='L').resize(shape)
     p_img.show()
+    p_img.save('out.jpg')
 
 
 if __name__ == '__main__':
